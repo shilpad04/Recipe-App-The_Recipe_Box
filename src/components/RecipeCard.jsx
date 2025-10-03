@@ -10,7 +10,6 @@ function RecipeCard({ meal }) {
 
   return (
     <div className="bg-neutral-900 rounded-lg shadow-md overflow-hidden text-center transform transition duration-300 hover:scale-105 hover:shadow-xl hover:border hover:border-red-500">
-      {/* Clickable content (image + title + category) */}
       <Link to={`/recipe/${meal.idMeal}`} className="block">
         <img
           src={meal.strMealThumb}
@@ -25,7 +24,6 @@ function RecipeCard({ meal }) {
         </div>
       </Link>
 
-      {/* Action buttons (not inside the link) */}
       <div className="flex items-center justify-center gap-3 p-4 pt-0">
         {/* View Details */}
         <Link
