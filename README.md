@@ -61,40 +61,32 @@ Common Endpoints:
 ## 🗂️ Project Structure
 
 recipe-app  
-  public  
-    background.png  
-    vite.svg  
-
-  src  
-    api  
-
-    components  
-      FilterBar.jsx  
-      Navbar.jsx  
-      RecipeCard.jsx  
-      SearchBar.jsx  
-
-    context  
-      FavouritesContext.jsx  
-
-    hooks  
-      useLocalStorage.js  
-
-    pages  
-      Home.jsx  
-      RecipeDetails.jsx  
-      Recipes.jsx  
-
-    App.css  
-    App.jsx  
-    index.css  
-    main.jsx  
-
-  .gitignore  
-  eslint.config.js  
-  index.html  
-  package-lock.json  
-  package.json  
+ - public  
+    - background.png  
+    - vite.svg  
+  - src  
+    - api 
+      - mealApi.js
+    - components  
+      - FilterBar.jsx  
+      - Navbar.jsx  
+      - RecipeCard.jsx  
+      - SearchBar.jsx  
+    - context  
+      - FavouritesContext.jsx  
+    - hooks  
+      - useLocalStorage.js  
+    - pages  
+      - Home.jsx  
+      - RecipeDetails.jsx  
+      - Recipes.jsx  
+    - App.css  
+    - App.jsx  
+    - index.css  
+    - main.jsx  
+  - index.html  
+  - package-lock.json  
+  - package.json  
 
 
 ## 📦 Installation & Setup
