@@ -63,32 +63,38 @@ Common Endpoints:
 recipe-app  
   public  
     background.png  
+    vite.svg  
+
   src  
-    api 
-      mealApi.js
+    api  
+
     components  
       FilterBar.jsx  
       Navbar.jsx  
       RecipeCard.jsx  
       SearchBar.jsx  
+
     context  
       FavouritesContext.jsx  
+
     hooks  
       useLocalStorage.js  
+
     pages  
       Home.jsx  
       RecipeDetails.jsx  
       Recipes.jsx  
+
     App.css  
     App.jsx  
     index.css  
     main.jsx  
+
   .gitignore  
   eslint.config.js  
   index.html  
   package-lock.json  
   package.json  
-  README.md  
 
 
 ## 📦 Installation & Setup
