@@ -1,0 +1,8 @@
+html, body, #root {
+  height: 100%;
+}
+
+select.bg-red-600 option {
+  background-color: #dc2626;
+  color: #fff;
+}
