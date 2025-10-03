@@ -3,8 +3,6 @@
 A dynamic React application to browse, search, filter, and (optionally) favorite recipes using [TheMealDB](https://www.themealdb.com/api.php).  
 Built with **React**, **TailwindCSS**, and **Axios/Fetch** for a responsive UI and smooth user experience.
 
----
-
 ## ✨ Features
 
 - **Recipe Listings**
@@ -35,8 +33,7 @@ Built with **React**, **TailwindCSS**, and **Axios/Fetch** for a responsive UI a
 - **Responsive UI**
   - Mobile-first layout with TailwindCSS.
   - Sticky **Navbar** and **FilterBar** for quick access.
-
----
+    
 
 ## 🧰 Tech Stack
 
@@ -45,7 +42,6 @@ Built with **React**, **TailwindCSS**, and **Axios/Fetch** for a responsive UI a
 - **Axios / Fetch API**
 - **React Router** for navigation
 
----
 
 ## 🔌 Public API (TheMealDB)
 
@@ -61,7 +57,6 @@ Common Endpoints:
 - List ingredients → `list.php?i=list`  
 - List areas → `list.php?a=list` 
 
----
 
 ## 🗂️ Project Structure
 
@@ -95,7 +90,6 @@ recipe-app
   package.json  
   README.md  
 
----
 
 ## 📦 Installation & Setup
 
